@@ -1,0 +1,333 @@
+*{
+    margin: 0px;
+    color: white;   
+    padding: 0px;
+}
+
+a{
+    text-decoration: none;
+}
+
+#e_background {
+    background:#000 url(./assets/sky.jpg) repeat 5% 5%;
+    position:relative;
+    top:0;
+    left:0;
+    right:0;
+    bottom:0;
+    z-index:-100;
+    -webkit-animation:stars-anim 600s infinite linear;
+    -moz-animation:stars-anim 600s infinite linear;
+    -o-animation:stars-anim 600s infinite linear;
+    animation:stars-anim 600s infinite linear   
+}
+
+@media only screen and (max-width:480px){}
+@media only screen and (min-width:481px) and (max-width:767px){}
+@-webkit-keyframes moon-anim{from{background-position:0 2%}to{background-position:110% 2%}}
+@-moz-keyframes moon-anim{from{background-position:0 2%}to{background-position:110% 2%}}
+@-o-keyframes moon-anim{from{background-position:0 2%}to{background-position:110% 2%}}
+@keyframes moon-anim{from{background-position:0 2%}to{background-position:110% 2%}}
+@-webkit-keyframes stars-anim{from{background-position:5% 600%}to{background-position:1300% 5%}}
+@-moz-keyframes stars-anim{from{background-position:5% 600%}to{background-position:1300% 5%}}
+@-o-keyframes stars-anim{from{background-position:5% 600%}to{background-position:1300% 5%}}
+@keyframes stars-anim{from{background-position:5% 600%}to{background-position:1300% 5%}}
+@-webkit-keyframes light{0%{opacity:.1}25%{opacity:.35}50%{opacity:.95}100%{opacity:.2}}
+@-moz-keyframes light{0%{opacity:.1}25%{opacity:.35}50%{opacity:.95}100%{opacity:.2}}
+@-o-keyframes light{0%{opacity:.1}25%{opacity:.35}50%{opacity:.95}100%{opacity:.2}}
+@keyframes light{0%{opacity:.1}25%{opacity:.35}50%{opacity:.95}100%{opacity:.2}}
+
+.logo{
+    display: flex;
+    margin: 20px;
+    justify-content: center;
+}
+
+.logo img{
+    border: 1px solid transparent;
+    border-radius: 30px;
+    max-width: 300px;
+}
+
+.imgs{
+    margin-top: 40px;
+    margin-bottom: 40px;
+    margin-left: 200px;
+    margin-right: 200px;
+    text-align: center;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    font-family: 'Shippori Antique B1', sans-serif;
+}
+
+.imgs h1{
+    margin: 20px;
+}
+
+.imgs img{
+    max-width: 150px;
+}
+
+.zd{
+    font-family: 'Noto Sans', sans-serif;
+    color: white;
+    display: flex;
+    justify-content: center;
+}
+
+.ip{
+    margin: 20px;
+    font-family: 'Noto Sans', sans-serif;
+    display: flex;
+    justify-content: center;
+    color: white;
+}
+
+.ip h1{
+    padding: 20px;
+    border: 3px solid white;
+    border-radius: 30px;
+}
+
+
+footer{
+    margin: 0px;
+    font-family: 'Hubballi', cursive;
+}
+
+.xdlol{
+    margin-top: 150px;
+    margin-bottom: 30px;
+    display: flex;
+    justify-content: center;
+    font-family: 'Hubballi', cursive;
+}
+
+/* staff ////////////////////////////////////////////////// */
+
+.back{
+    margin: 20px;
+    font-family: 'Noto Sans', sans-serif;
+    display: flex;
+    justify-content: center;
+    color: white;
+    padding: 25px;
+    background-color: #000;
+    border: 3px solid white;
+    border-radius: 30px;
+    width: 300px;
+}
+
+.sec1{
+    display: flex;
+    justify-content: center;
+}
+
+.owner{
+    margin: 30px;
+    padding: 30px;
+    font-family: 'Shippori Antique B1', sans-serif;
+}
+
+.owner h1{
+    text-align: center;
+    width: 600px;
+    border-bottom: 3px solid white;
+}
+
+.owner h1{
+    padding: 30px;
+    color: blue;
+}
+
+.sus1{
+    align-items: center;
+    width: 600px;
+    margin: 20px;
+    display: flex;
+    justify-content: center;
+}
+
+.sus1 img{
+    max-width: 100px;
+}
+
+.sus1 h3{
+    color: blue;
+    padding: 30px;
+}
+
+/*  */
+
+.admin{
+    margin: 30px;
+    padding: 30px;
+    font-family: 'Shippori Antique B1', sans-serif;
+}
+
+.admin h1{
+    text-align: center;
+    width: 600px;
+    border-bottom: 3px solid white;
+}
+
+.admin h1{
+    padding: 30px;
+    color: red;
+}
+
+.sus2{
+    align-items: center;
+    width: 600px;
+    margin: 20px;
+    display: flex;
+    justify-content: center;
+}
+
+.sus2 img{
+    max-width: 100px;
+}
+
+.sus2 h3{
+    color: red;
+    padding: 30px;
+}
+
+/*  */
+
+.sec2{
+    display: flex;
+    justify-content: center;
+}
+
+
+.sus3{
+    align-items: center;
+    width: 600px;
+    margin: 20px;
+    display: flex;
+    justify-content: center;
+}
+
+.sus3 img{
+    max-width: 100px;
+}
+
+.sus3 h3{
+    color: yellow;
+    padding: 30px;
+}
+
+/*  */
+
+.mod{
+    margin: 30px;
+    padding: 30px;
+    font-family: 'Shippori Antique B1', sans-serif;
+}
+
+.mod h1{
+    text-align: center;
+    width: 600px;
+    border-bottom: 3px solid white;
+}
+
+.mod h1{
+    padding: 30px;
+    color: purple;
+}
+
+.sus4{
+    align-items: center;
+    width: 600px;
+    margin: 20px;
+    display: flex;
+    justify-content: center;
+}
+
+.sus4 img{
+    max-width: 100px;
+}
+
+.sus4 h3{
+    color: purple;
+    padding: 30px;
+}
+
+/*  */
+
+.builder{
+    margin: 30px;
+    padding: 30px;
+    font-family: 'Shippori Antique B1', sans-serif;
+}
+
+.builder h1{
+    text-align: center;
+    width: 600px;
+    border-bottom: 3px solid white;
+}
+
+.builder h1{
+    padding: 30px;
+    color: darkred;
+}
+
+.sus5{
+    align-items: center;
+    width: 600px;
+    margin: 20px;
+    display: flex;
+    justify-content: center;
+}
+
+.sus5 img{
+    max-width: 100px;
+}
+
+.sus5 h3{
+    color: darkred;
+    padding: 30px;
+}
+
+/*  */
+
+.sec3{
+    font-family: 'Shippori Antique B1', sans-serif;
+    justify-content: center;
+}
+
+.helper{
+    display: flex;
+    justify-content: center;
+    margin: 30px;
+    padding: 30px;
+}
+.sexebi{
+    font-family: 'Shippori Antique B1', sans-serif;
+    border-bottom: 3px solid white;
+    padding: 30px;
+    text-align: center;
+    color: yellow;
+}
+
+.sus3{
+    align-items: center;
+    width: 600px;
+    margin: 20px;
+    display: flex;
+    justify-content: center;
+}
+
+.sus3 img{
+    max-width: 100px;
+}
+
+.sus3 h3{
+    color: yellow;
+    padding: 30px;
+}
+
+
+
