@@ -1,2 +1,1 @@
-# boxpvp
-boxpvps banzi saiti saurnolisgan
+# boxpvps banzi saiti saurnolisgan
